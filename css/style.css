@@ -7,8 +7,60 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
-body {
-    text-align: center;
-    background-color: #f3f4f7;
-    min-height: 100vh;
-}
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #2d3748;
+        }
+
+        main {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .coin {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .valorin {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .txt {
+            font-size: 16px;
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        .valorout {
+            font-size: 32px;
+            font-weight: 600;
+            color: #2c5282;
+        }
+
+        @media (max-width: 480px) {
+            main {
+                width: 90%;
+                margin: 20px;
+            }
+        }
